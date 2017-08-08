@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		A83B2E291F347C4E00D2F695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B2E281F347C4E00D2F695 /* main.m */; };
 		A83B2E2C1F347C4E00D2F695 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B2E2B1F347C4E00D2F695 /* AppDelegate.m */; };
-		A83B2E2F1F347C4E00D2F695 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B2E2E1F347C4E00D2F695 /* ViewController.m */; };
-		A83B2E321F347C4F00D2F695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83B2E301F347C4F00D2F695 /* Main.storyboard */; };
 		A83B2E341F347C4F00D2F695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83B2E331F347C4F00D2F695 /* Assets.xcassets */; };
-		A83B2E371F347C4F00D2F695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83B2E351F347C4F00D2F695 /* LaunchScreen.storyboard */; };
+		A83B2E401F347C7500D2F695 /* 春雨医生@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A83B2E3E1F347C7500D2F695 /* 春雨医生@2x.png */; };
+		A83B2E411F347C7500D2F695 /* 丁香医生@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A83B2E3F1F347C7500D2F695 /* 丁香医生@2x.png */; };
+		A83B2E441F347C9900D2F695 /* SpringAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B2E431F347C9900D2F695 /* SpringAnimationVC.m */; };
+		A83B2E471F347CA200D2F695 /* KeyframeAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B2E461F347CA200D2F695 /* KeyframeAnimationVC.m */; };
+		A83B2E4A1F347CAF00D2F695 /* TransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B2E491F347CAF00D2F695 /* TransitionVC.m */; };
+		A83B2E4D1F347CB900D2F695 /* BasicAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B2E4C1F347CB900D2F695 /* BasicAnimationVC.m */; };
+		A88A34DD1F38739000514EA3 /* LCSelectTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A88A34DC1F38739000514EA3 /* LCSelectTableVC.m */; };
+		A88A34E11F3874E300514EA3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88A34E01F3874E300514EA3 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,21 @@
 		A83B2E281F347C4E00D2F695 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A83B2E2A1F347C4E00D2F695 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A83B2E2B1F347C4E00D2F695 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A83B2E2D1F347C4E00D2F695 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A83B2E2E1F347C4E00D2F695 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A83B2E311F347C4F00D2F695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A83B2E331F347C4F00D2F695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A83B2E361F347C4F00D2F695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A83B2E381F347C4F00D2F695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83B2E3E1F347C7500D2F695 /* 春雨医生@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "春雨医生@2x.png"; sourceTree = "<group>"; };
+		A83B2E3F1F347C7500D2F695 /* 丁香医生@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "丁香医生@2x.png"; sourceTree = "<group>"; };
+		A83B2E421F347C9900D2F695 /* SpringAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimationVC.h; sourceTree = "<group>"; };
+		A83B2E431F347C9900D2F695 /* SpringAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationVC.m; sourceTree = "<group>"; };
+		A83B2E451F347CA200D2F695 /* KeyframeAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyframeAnimationVC.h; sourceTree = "<group>"; };
+		A83B2E461F347CA200D2F695 /* KeyframeAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyframeAnimationVC.m; sourceTree = "<group>"; };
+		A83B2E481F347CAF00D2F695 /* TransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionVC.h; sourceTree = "<group>"; };
+		A83B2E491F347CAF00D2F695 /* TransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionVC.m; sourceTree = "<group>"; };
+		A83B2E4B1F347CB900D2F695 /* BasicAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationVC.h; sourceTree = "<group>"; };
+		A83B2E4C1F347CB900D2F695 /* BasicAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationVC.m; sourceTree = "<group>"; };
+		A88A34DB1F38739000514EA3 /* LCSelectTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSelectTableVC.h; sourceTree = "<group>"; };
+		A88A34DC1F38739000514EA3 /* LCSelectTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSelectTableVC.m; sourceTree = "<group>"; };
+		A88A34E01F3874E300514EA3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +72,24 @@
 		A83B2E261F347C4E00D2F695 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				A83B2E3E1F347C7500D2F695 /* 春雨医生@2x.png */,
+				A83B2E3F1F347C7500D2F695 /* 丁香医生@2x.png */,
 				A83B2E2A1F347C4E00D2F695 /* AppDelegate.h */,
 				A83B2E2B1F347C4E00D2F695 /* AppDelegate.m */,
-				A83B2E2D1F347C4E00D2F695 /* ViewController.h */,
-				A83B2E2E1F347C4E00D2F695 /* ViewController.m */,
-				A83B2E301F347C4F00D2F695 /* Main.storyboard */,
+				A88A34DB1F38739000514EA3 /* LCSelectTableVC.h */,
+				A88A34DC1F38739000514EA3 /* LCSelectTableVC.m */,
+				A83B2E4B1F347CB900D2F695 /* BasicAnimationVC.h */,
+				A83B2E4C1F347CB900D2F695 /* BasicAnimationVC.m */,
+				A83B2E421F347C9900D2F695 /* SpringAnimationVC.h */,
+				A83B2E431F347C9900D2F695 /* SpringAnimationVC.m */,
+				A83B2E451F347CA200D2F695 /* KeyframeAnimationVC.h */,
+				A83B2E461F347CA200D2F695 /* KeyframeAnimationVC.m */,
+				A83B2E481F347CAF00D2F695 /* TransitionVC.h */,
+				A83B2E491F347CAF00D2F695 /* TransitionVC.m */,
 				A83B2E331F347C4F00D2F695 /* Assets.xcassets */,
-				A83B2E351F347C4F00D2F695 /* LaunchScreen.storyboard */,
 				A83B2E381F347C4F00D2F695 /* Info.plist */,
 				A83B2E271F347C4E00D2F695 /* Supporting Files */,
+				A88A34E01F3874E300514EA3 /* Launch Screen.storyboard */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -137,9 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A83B2E371F347C4F00D2F695 /* LaunchScreen.storyboard in Resources */,
+				A83B2E411F347C7500D2F695 /* 丁香医生@2x.png in Resources */,
 				A83B2E341F347C4F00D2F695 /* Assets.xcassets in Resources */,
-				A83B2E321F347C4F00D2F695 /* Main.storyboard in Resources */,
+				A88A34E11F3874E300514EA3 /* Launch Screen.storyboard in Resources */,
+				A83B2E401F347C7500D2F695 /* 春雨医生@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,32 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A83B2E2F1F347C4E00D2F695 /* ViewController.m in Sources */,
+				A83B2E4D1F347CB900D2F695 /* BasicAnimationVC.m in Sources */,
+				A83B2E4A1F347CAF00D2F695 /* TransitionVC.m in Sources */,
 				A83B2E2C1F347C4E00D2F695 /* AppDelegate.m in Sources */,
+				A88A34DD1F38739000514EA3 /* LCSelectTableVC.m in Sources */,
+				A83B2E471F347CA200D2F695 /* KeyframeAnimationVC.m in Sources */,
+				A83B2E441F347C9900D2F695 /* SpringAnimationVC.m in Sources */,
 				A83B2E291F347C4E00D2F695 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A83B2E301F347C4F00D2F695 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A83B2E311F347C4F00D2F695 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A83B2E351F347C4F00D2F695 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A83B2E361F347C4F00D2F695 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A83B2E391F347C4F00D2F695 /* Debug */ = {
@@ -219,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -309,6 +318,7 @@
 				A83B2E3D1F347C4F00D2F695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
